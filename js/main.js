@@ -37,7 +37,9 @@ document.getElementById('visible').addEventListener('click', e => {
   - id = password と type= passwordで一致する
   - password.type     = 'text';の意図は？
   入力中のパスワードを表示したい時は、input要素のtype属性に「text」を設定
+  → 属性をtextにしないと、パスワードを表示できない
   パスワードを非表示に戻すときはinput要素のtype属性に「password」を設定
+  → 属性をpasswordにしないと、パスワードを非表示にできない
 
   ④処理内容
   - 初期：目を閉じてる（eye-close.png）から目が空いてる（eye-open.png）に切り替わる

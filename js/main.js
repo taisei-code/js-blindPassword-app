@@ -26,17 +26,18 @@ document.getElementById('visible').addEventListener('click', e => {
   初期：目を閉じてる（eye-close.png）
 
   アプローチ
-  ・要素を取得
+  ①要素を取得
   - input要素、入力された値（id=password)
   - button要素、目アイコン（id=visible)
 
-  ・目のアイコンをクリック時にイベントを設定
+  ②目のアイコンをクリック時にイベントを設定
   - id = visibleをクリックした時にaddEventListener
 
-  ・どういう条件で処理を実行する
+  ③どういう条件で処理を実行する
   - id = password と type= passwordで一致する
+  - password.type     = 'text';の意図は？
 
-  ・処理内容
+  ④処理内容
   - 初期：目を閉じてる（eye-close.png）から目が空いてる（eye-open.png）に切り替わる
   
 
